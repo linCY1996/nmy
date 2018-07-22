@@ -1,0 +1,312 @@
+#head-sw{
+    z-index: 5;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(36, 187, 112);
+}
+#head-sw p{
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}
+.sw{
+    width: 88%;
+    height: 40px;
+    /* background-color: aliceblue; */
+}
+
+#cc{
+    color: rgb(235, 177, 18);
+}
+#cc a:hover{
+    color: aliceblue;
+}
+#cc a{
+    color: rgb(235, 177, 18);
+    list-style: none;
+    text-decoration: none;
+}
+.shop{
+   float: right;
+    z-index: 10;
+    width: 45px;
+    height: 60px;
+    background-color: rgb(235, 177, 18);
+    border-radius: 0 0 50px 50px;
+}
+.shop:hover{
+    background-color: rgb(231, 214, 137);
+}
+/* 导航栏 */
+.am-head{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+.img-1{
+    position: absolute;
+    left: 200px;
+    width: 92px;
+    height: 92px;
+}
+.img-2{
+    position: absolute;
+    left: 300px;
+    width: 159px;
+    height: 92px;
+}
+.nav-marg{
+    position: absolute;
+    left: 456px;
+    width: 55%;
+    height: 80px;
+    /* background-color: antiquewhite; */
+}
+.nav-marg ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-marg ul li a{
+    color: black;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 80px;
+    font-family: 幼圆;
+}
+.nav-marg ul li{
+    width: 20%;
+    height: 80px;
+    text-align: center;
+}
+.nav-marg ul li:hover{
+    background-color: rgb(70, 182, 158);
+    /* background: white url("../img/sd.png"); */
+}
+/* 内容 */
+.line {
+    width: 70px;
+    height: 20px;
+    border-bottom: 5px solid green;
+}
+.body{
+    width: 80%;
+    /* height: 1800px; */
+    /* background-color: aquamarine; */
+    margin:0 auto;
+}
+.tagline {
+    width: 100%;
+   
+}
+
+.tagline p{
+    margin: 30px 0 30px 0;
+    text-align: center;
+    font-size: 2em;
+    font-family: 幼圆; 
+   
+}
+
+.service {
+    width: 100%;
+}
+
+.service p {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5px auto;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.service p:first-child {
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.nav-shop{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 320px;
+    margin: 0 auto;
+    /* background-color: bisque; */
+}
+.nav-img{
+    width: 30%;
+    height: 320px;
+    /* background-color: brown; */
+}
+.nav-img:hover{
+    background-color:rgba(224, 218, 218, 0.4);
+}
+.nav-img img{
+    width: 100%;
+    height: 220px;
+}
+.paid{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 60px;
+    /* background-color: antiquewhite; */
+}
+.paid p{
+    color: rgb(189, 115, 18);
+    font-family: 幼圆;
+    font-size: 1.5em;
+    line-height: 60px;
+    font-weight: 600;
+}
+.paid span{
+    color: rgb(114, 116, 117);
+    font-family: 幼圆;
+    font-size: 1.2em;
+    line-height: 60px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.shop-text{
+    width: 100%;
+    height: 30px;
+    /* background-color: rgb(253, 242, 228); */
+}
+.product-foot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    margin-top: 120px;
+    /* background-color: aqua; */
+}
+.product-text{
+    width: 42%;
+    height: 300px;
+    /* background-color: rgb(58, 179, 34); */
+}
+.text-chlid1{
+    width: 130px;
+    height: 40px;
+    margin-top:10px;
+    margin-left: 20px; 
+    border: 4px solid rgb(96, 219, 157);
+    border-radius: 30px 30px;
+    color: rgb(96, 219, 157);
+    font-family: 幼圆;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 33px;
+    font-weight: 600;
+}
+.text-child2{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(6, 88, 88); */
+}
+.text-child2 p{
+    color: rgb(130, 133, 136);
+    font-family: 幼圆;
+    font-size: 1.1em;
+    line-height: 60px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.text-child3{
+    width: 95%;
+    margin-left: 20px;
+    /* background-color: rgb(135, 202, 58); */
+}
+.text-child3 a{
+    color: rgb(233, 183, 118);
+    font-size: 1.3em;
+    text-decoration: rgb(236, 177, 100);
+}
+.product-img{
+    width: 45%;
+    height: 300px;
+    /* background-color: rgb(236, 177, 100); */
+}
+.product-img-child{ 
+    width: 89%;
+    height: 280px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.product-img-child img{
+    width: 100%;
+    height: 280px;
+    transition: all 0.6s;
+}
+.product-img-child img:hover{
+    transform: scale(1.1);
+}
+/* 锚点 */
+.nav-pos{
+    width: 95%;
+    height: 115px;
+    /* background-color: aqua; */
+}
+.nav-pos img{
+    float: right;
+}
+/* 底部 */
+.grey-line {
+    width: 100%;
+    height: 30px;
+    background: rgb(220, 220, 220);
+    margin-top: 100px;
+}
+
+.foot {
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.foot-desc {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foot-part {
+    width: 25%;
+    float: left;
+}
+
+.part1 img {
+    margin-top: 67px;
+    width: 100px;
+    float: right;
+    margin-right: 30px;
+}
+
+.part4 img {
+    width: 100px;
+}
+
+.foot a {
+    color: rgb(39, 139, 197);
+}
+
+.foot p {
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+}
+
+.foot p:first-child {
+    padding-top: 50px;
+}
+
+.manage {
+    text-align: center;
+    background: rgb(220, 220, 220)
+}

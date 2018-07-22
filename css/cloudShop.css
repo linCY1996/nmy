@@ -1,0 +1,141 @@
+.big-title p {
+    font-size: 2em;
+    text-align: center;
+    font-family: 幼圆;
+}
+
+.product {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.eng-word,
+.chin-word,
+.line {
+    text-align: center;
+}
+
+.eng-word {
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.chin-word {
+    margin-top: 0;
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+.line {
+    margin: 0 auto;
+    width: 70px;
+    height: 20px;
+    border-bottom: 5px solid green;
+}
+
+/* goodslist */
+
+.goods-list {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.list-content {
+    width: 28%;
+    float: left;
+}
+
+.list2 {
+    margin-left: 8%;
+}
+
+.list3 {
+    float: right;
+}
+
+.list-content img {
+    width: 100%;
+}
+
+.name {
+    font-size: 1.6em;
+    color: orange;
+    letter-spacing: 3px;
+}
+
+.new-price {
+    font-size: 2em;
+    color: orange;
+    margin-left: 20px;
+}
+
+.old-price {
+    margin-left: 18px;
+    text-decoration: line-through;
+}
+
+.goods-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.product-source {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.more a {
+    font-size: 1.3em;
+    color: rgb(255, 193, 77);
+}
+
+.more a:hover {
+    color: lightblue;
+}
+
+.word-desc,
+.img-desc {
+    width: 50%;
+    float: left;
+}
+
+.product-track {
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    width: 130px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.desc-name {
+    margin: 0 50px 10px 0;
+    float: left;
+    color: orange;
+    letter-spacing: 5px;
+}
+
+.img-desc img {
+    margin-left: 100px;
+    width: 70%;
+}
+
+.location {
+    line-height: 45px;
+}
+
+.detail {
+    padding-right: 50px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
