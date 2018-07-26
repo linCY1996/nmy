@@ -1,0 +1,246 @@
+
+/* 导航栏 */
+.am-head{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(40, 177, 63);
+}
+
+.img-1{
+    position: absolute;
+    left: 200px;
+    width: 92px;
+    height: 92px;
+}
+.img-2{
+    position: absolute;
+    left: 300px;
+    width: 159px;
+    height: 92px;
+}
+.nav-marg{
+    position: absolute;
+    left: 456px;
+    width: 55%;
+    height: 80px;
+    /* background-color:rgb(97, 206, 124);  */
+    /* background-color: antiquewhite; */
+}
+.nav-marg ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-marg ul li a{
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 80px;
+    font-family: 幼圆;
+}
+.nav-marg ul li{
+    width: 20%;
+    height: 80px;
+    text-align: center;
+}
+.nav-marg ul li:hover{
+    background-color: rgb(34, 148, 123);
+    /* background: white url("../img/sd.png"); */
+}
+.nav-marg ul li:hover a{
+    color: white;
+}
+/* /////////////////////////////// */
+.Flowing{
+    width: 90%;
+    height: 500px;
+    /* background-color: rgb(160, 160, 83); */
+    margin: 20px auto 0 auto;
+}
+.nav-flow{
+    width: 120px;
+    height: 80px;
+    /* background-color: aqua; */
+}
+.nav-flow p{
+    font-family: 幼圆;
+    font-size: 1.3em;
+    color: rgb(122, 117, 103);
+    line-height: 17px;
+    font-weight: 600;
+}
+.nav-flow .last{
+    color: rgb(207, 184, 50);
+}
+#nav-img{
+    position: relative;
+    width: 100%;
+    height: 460px;
+    /* background-color: aqua; */
+}
+#ra{
+     width: 140px;
+    height: 140px;
+    /* background-color: rgb(88, 92, 63); */
+    border-radius: 50%;     
+    -moz-border-radius: 50%;     
+    -webkit-border-radius: 50%;
+    text-align: center;line-height: 135px;
+}
+#ra img{
+    width: 100px;
+    height: 100px;
+}
+.one{
+    position: absolute;
+    top: 135px;
+    left: 30px;
+    background-color: rgb(176, 189, 125);
+}
+.two{
+    position: absolute;
+    top: 135px;
+    left: 302px;
+    background-color: rgb(113, 210, 223);
+}
+.three{
+    position: absolute;
+    top: 135px;
+    left: 574px;
+    background-color: rgb(176, 189, 125);
+}
+.four{
+    position: absolute;
+    top: 33px;
+    left: 860px;
+    background-color: rgb(182, 221, 146);
+}
+.five{
+    position: absolute;
+    top: 235px;
+    left: 860px;
+    background-color: rgb(137, 138, 133);
+}
+#ll{
+    width: 100px;
+    border: 3px dashed rgb(150, 146, 146);
+}
+.line-one{
+    position: absolute;
+    top: 206px;
+    left: 185px;
+}
+.line-two{
+    position: absolute;
+    top: 206px;
+    left: 458px;
+}
+.line-three{
+    position: absolute;
+    top: 161px;
+    left: 734px;
+    transform: rotateX(-25deg);
+    -ms-transform:rotate(-25deg); 	/* IE 9 */
+    -moz-transform:rotate(-25deg); 	/* Firefox */
+    -webkit-transform:rotate(-25deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-25deg); 	/* Opera */
+}
+.line-four{
+    position: absolute;
+    top: 261px;
+    left: 734px;
+    transform: rotateX(25deg);
+    -ms-transform:rotate(25deg); 	/* IE 9 */
+    -moz-transform:rotate(25deg); 	/* Firefox */
+    -webkit-transform:rotate(25deg); /* Safari 和 Chrome */
+    -o-transform:rotate(25deg); 	/* Opera */
+}
+#te{
+    font-family: 幼圆;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(51, 100, 5);
+}
+.ra-text-one{
+    position: absolute;
+    top: 286px;
+    left: 72px;
+}
+.ra-text-two{
+    position: absolute;
+    top: 286px;
+    left: 345px;
+}
+.ra-text-three{
+    position: absolute;
+    top: 286px;
+    left: 624px;
+}
+.ra-text-four{
+    position: absolute;
+    top: 180px;
+    left: 884px;
+}
+.ra-text-five{
+    position: absolute;
+    top: 380px;
+    left: 884px;
+}
+.ra-texting{
+    position: absolute;
+    top: 194px;
+    left: 64px;
+    width: 67px;
+    height: 33px;
+    font-family: 幼圆;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    line-height: 33px;
+    /* background-color: beige; */
+    color: rgb(11, 90, 4);
+    border: 2px solid rgb(11, 90, 4);
+    border-radius: 10px 10px;
+}
+/* //////////////////////// */
+.marg{
+    width: 100%;
+    /* height: 1600px; */
+    /* background-color: aquamarine; */
+}
+.marg-ch{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+}
+.marg-img{
+    width: 40%;
+    height: 350px;
+    /* background-color: antiquewhite; */
+}
+.marg-img img{
+    width: 80%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.marg-text{
+    width: 58%;
+    height: 350px;
+    /* background-color: antiquewhite; */
+}
+/* /////////////// */
+#pro{
+    width: 90%;
+}
+#more{
+    font-family: 幼圆;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(131, 101, 18);
+}
+#more span{
+    font-size: 0.7em;
+}
