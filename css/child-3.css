@@ -1,0 +1,358 @@
+
+/* 导航栏 */
+#am-head{
+    min-width: 1200px;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(40, 177, 63);
+}
+
+.img-1{
+    position: absolute;
+    left: 200px;
+    width: 92px;
+    height: 92px;
+}
+.img-2{
+    position: absolute;
+    left: 300px;
+    width: 159px;
+    height: 92px;
+}
+.nav-marg{
+    position: absolute;
+    left: 456px;
+    width: 55%;
+    height: 80px;
+    /* background-color:rgb(97, 206, 124);  */
+    /* background-color: antiquewhite; */
+}
+.nav-marg ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-marg ul li a{
+    color: white;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 80px;
+    font-family: 幼圆;
+}
+.nav-marg ul li{
+    width: 20%;
+    height: 80px;
+    text-align: center;
+    list-style: none;
+}
+.nav-marg ul li:hover{
+    background-color: rgb(34, 148, 123);
+    /* background: white url("../img/sd.png"); */
+}
+.nav-marg ul li:hover a{
+    color: white;
+}
+/* /////////////////////////////////////// */
+.body{
+    width: 1100px;
+    height: 1200px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.nav-one{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(22, 84, 139); */
+}
+.nav-img{
+    position: relative;
+    width: 40%;
+    /* background-color: antiquewhite; */
+}
+.nav-img img:first-child{
+    position: absolute;
+    top: 119px;
+    left: 92px;
+    width: 50%;
+    height: 50%;
+}
+.nav-img img:last-child{
+    position: absolute;
+    top: 5px;
+    width: 104%;
+    height: 104%;
+}
+.nav-text{
+    position: relative;
+    width: 55%;
+    /* background-color: antiquewhite; */
+}
+.text-one{
+    position: absolute;
+    top: 68px;
+    width: 126px;
+    height: 48px;
+    border: 2px solid rgb(7, 100, 53);
+    border-radius: 15px 15px;
+    font-family: 幼圆;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(7, 100, 53);
+    line-height: 48px;
+    text-align: center;
+}
+
+.text-two{
+    width: 130px;
+    height: 50px;
+    /* background-color: rgb(19, 83, 83); */
+}
+.text-three{
+    position: absolute;
+    top: 130px;
+    width: 400px;
+    height: 60px;
+    /* background-color: aquamarine; */
+}
+.text-three p{
+    font-family: 幼圆;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: rgb(214, 197, 45);
+}
+.ds{
+    /* line-height: 60px; */
+    font-family: 幼圆;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: rgb(180, 179, 176);
+    text-decoration: line-through;
+}
+.text-four{
+    position: absolute;
+    top: 185px;
+    width: 600px;
+    height: 100px;
+    /* background-color: blueviolet; */
+    color: rgb(189, 190, 192);
+
+}
+.text-five{
+    position: absolute;
+    top: 240px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 40px;
+    /* background-color: rgb(124, 76, 13); */
+}
+.but{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    /* background-color: aqua; */
+}
+.b{
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    font-family: 幼圆;
+    font-size: 1.1em;
+    color: rgb(201, 174, 22);
+}
+.aa{
+    position: absolute;
+    top: 4px;
+    left: 35px;
+    font-family: 幼圆;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.bb{
+    position: absolute;
+    top: 5px;
+    left: 74px;
+    font-family: 幼圆;
+    font-size: 1.1em;
+    color: rgb(201, 174, 22);
+}
+.shop{
+    width: 150px;
+    height: 40px;
+    border: 2px solid rgb(201, 174, 22);
+    /* background-color:rgb(201, 174, 22); */
+    border-radius: 12px 12px;
+    font-family: 幼圆;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(201, 174, 22);
+    line-height: 40px;
+    text-align: center;
+}
+.text-six{
+    position: absolute;
+    top: 290px;
+    left: 6px;
+    width: 100px;
+    height: 50px;
+    /* background-color: aliceblue; */
+}
+#buy{
+    list-style: none;
+    width: 95px;
+    height: 40px;
+    background-color: rgb(201, 174, 22);
+    border-radius: 12px 12px;
+    color: rgb(255, 255, 255);
+    font-family: 1.2em;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+}
+/* //////////////////////////////////// */
+.box{
+    height: 40px;
+    width: 500px;
+    margin: 60px auto 0 auto;
+    /* background-color: rgb(134, 93, 17); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-line{
+    height: 2px;
+    width: 180px;
+    background-color: rgb(16, 165, 153);
+}
+.box-text{
+    font-family: 幼圆;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: rgb(16, 165, 153);
+    margin: 0 5px;
+}
+.eng{
+    width: 150px;
+    height: 20px;
+    margin: 0 auto;
+    color: aqua;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(16, 165, 153);
+}
+/* //////////////////////////////////////// */
+.marg-page{
+    margin-top: 80px;
+    width: 100%;
+    /* height: 1400px; */
+    /* background-color: aquamarine; */
+
+}
+.marg-page-ch1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: beige; */
+}
+.marg-img{
+    width: 34%;
+    /* background-color: blueviolet; */
+}
+.marg-img img{
+    width: 100%;
+}
+.marg-text{
+    width: 55%;
+    /* background-color: rgb(137, 49, 219); */
+}
+.marg-text p:first-child{
+    font-family: 幼圆;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: rgb(16, 165, 153);
+}
+.marg-text p:last-child{
+    font-family: 幼圆;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgb(154, 158, 158);
+}
+
+/* 锚点 */
+.nav-pos{
+    min-width: 1255px;
+    width: 95%;
+    height: 115px;
+    /* background-color: aqua; */
+}
+.nav-pos img{
+    float: right;
+}
+.nav-pos img:hover{
+    box-shadow: 0 0 5px 5px rgb(116, 110, 110);
+}
+/* /////////////////// */
+
+.grey-line {
+    width: 100%;
+    height: 30px;
+    background: rgb(220, 220, 220);
+    margin-top: 70px;
+}
+
+.foot {
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.foot-desc {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foot-part {
+    width: 25%;
+    float: left;
+}
+
+.part1 img {
+    margin-top: 67px;
+    width: 100px;
+    float: right;
+    margin-right: 30px;
+}
+
+.part4 img {
+    width: 100px;
+}
+
+.foot a {
+    color: rgb(39, 139, 197);
+}
+
+.foot p {
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+}
+
+.foot p:first-child {
+    padding-top: 50px;
+}
+
+.manage {
+    text-align: center;
+    background: rgb(220, 220, 220)
+}
+.footer{
+    margin-top: 251px;
+    min-width: 1500px;
+    width: 100%;
+}
